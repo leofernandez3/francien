@@ -90,3 +90,11 @@ function closeTab() {
         window.location.href = "about:blank";
     }, 100);
 }
+
+fetch('https://api.counterapi.dev/v1/francienvaneverdingen.nl/visits/up')
+  .then(res => res.json())
+  .then(data => {
+    if (window.location.hash === "#checkvisitors") {
+      alert("Visitors: " + data.count);
+    }
+  });
