@@ -73,7 +73,6 @@ mediaModal.addEventListener('show.bs.modal', event => {
   }
 });
 
-// Clear modal content on close
 mediaModal.addEventListener('hidden.bs.modal', () => {
   youtubeVideo.src = "";
   pdfDoc = null;
