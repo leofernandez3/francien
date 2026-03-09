@@ -1917,7 +1917,6 @@ body::before {
     left: 103px;
     transform: scale(0.98);
   }
-
   .floating-links a.node:nth-child(12) .tooltips {
     top: -75px;
     left: -205px;
